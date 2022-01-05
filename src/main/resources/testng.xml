@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Observer Application Test Automation Test Suite">
+  <test name="Observer application test cases">
+      <classes>
+      <class name="com.observerTesting.testCases.LoginPageTest"/>
+       <class name="com.observerTesting.testCases.ObserverPageTest"/>      
+      </classes>
+  </test> <!-- Test --> 
+</suite> <!-- Suite -->

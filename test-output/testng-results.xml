@@ -1,25 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6265" started-at="2021-12-21T15:58:10 IST" finished-at="2021-12-21T15:58:16 IST">
+  <suite name="Observer Application Test Automation Test Suite" duration-ms="22917" started-at="2022-01-05T13:00:57 IST" finished-at="2022-01-05T13:01:20 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6265" started-at="2021-12-21T15:58:10 IST" finished-at="2021-12-21T15:58:16 IST">
-      <class name="com.observerTesting.testCases.TC_LoginTest_001">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.observerTesting.testCases.TC_LoginTest_001@7276c8cd]" name="setup" is-config="true" duration-ms="2905" started-at="2021-12-21T15:58:10 IST" finished-at="2021-12-21T15:58:13 IST">
+    <test name="Observer application test cases" duration-ms="22917" started-at="2022-01-05T13:00:57 IST" finished-at="2022-01-05T13:01:20 IST">
+      <class name="com.observerTesting.testCases.ObserverPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.observerTesting.testCases.ObserverPageTest@43a0cee9]" name="setUp" is-config="true" duration-ms="3822" started-at="2022-01-05T13:01:15 IST" finished-at="2022-01-05T13:01:19 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.observerTesting.testCases.TC_LoginTest_001@7276c8cd]" name="loginTest" duration-ms="2550" started-at="2021-12-21T15:58:13 IST" finished-at="2021-12-21T15:58:15 IST">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateNetworkGrid()[pri:1, instance:com.observerTesting.testCases.ObserverPageTest@43a0cee9]" name="validateNetworkGrid" duration-ms="775" started-at="2022-01-05T13:01:19 IST" finished-at="2022-01-05T13:01:20 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.observerTesting.testCases.TC_LoginTest_001@7276c8cd]" name="tearDown" is-config="true" duration-ms="742" started-at="2021-12-21T15:58:15 IST" finished-at="2021-12-21T15:58:16 IST">
+        </test-method> <!-- validateNetworkGrid -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.observerTesting.testCases.ObserverPageTest@43a0cee9]" name="tearDown" is-config="true" duration-ms="773" started-at="2022-01-05T13:01:20 IST" finished-at="2022-01-05T13:01:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.observerTesting.testCases.TC_LoginTest_001 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.observerTesting.testCases.ObserverPageTest -->
+      <class name="com.observerTesting.testCases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.observerTesting.testCases.LoginPageTest@3ecd23d9]" name="setUp" is-config="true" duration-ms="4234" started-at="2022-01-05T13:00:58 IST" finished-at="2022-01-05T13:01:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.observerTesting.testCases.LoginPageTest@3ecd23d9]" name="loginPageTitleTest" duration-ms="34" started-at="2022-01-05T13:01:02 IST" finished-at="2022-01-05T13:01:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.observerTesting.testCases.LoginPageTest@3ecd23d9]" name="tearDown" is-config="true" duration-ms="4268" started-at="2022-01-05T13:01:02 IST" finished-at="2022-01-05T13:01:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.observerTesting.testCases.LoginPageTest@3ecd23d9]" name="setUp" is-config="true" duration-ms="3316" started-at="2022-01-05T13:01:06 IST" finished-at="2022-01-05T13:01:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="velocisLogoImageTest()[pri:2, instance:com.observerTesting.testCases.LoginPageTest@3ecd23d9]" name="velocisLogoImageTest" duration-ms="636" started-at="2022-01-05T13:01:09 IST" finished-at="2022-01-05T13:01:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- velocisLogoImageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.observerTesting.testCases.LoginPageTest@3ecd23d9]" name="tearDown" is-config="true" duration-ms="90" started-at="2022-01-05T13:01:10 IST" finished-at="2022-01-05T13:01:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.observerTesting.testCases.LoginPageTest@3ecd23d9]" name="setUp" is-config="true" duration-ms="3552" started-at="2022-01-05T13:01:10 IST" finished-at="2022-01-05T13:01:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.observerTesting.testCases.LoginPageTest@3ecd23d9]" name="loginTest" duration-ms="1203" started-at="2022-01-05T13:01:14 IST" finished-at="2022-01-05T13:01:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.observerTesting.testCases.LoginPageTest@3ecd23d9]" name="tearDown" is-config="true" duration-ms="163" started-at="2022-01-05T13:01:15 IST" finished-at="2022-01-05T13:01:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.observerTesting.testCases.LoginPageTest -->
+    </test> <!-- Observer application test cases -->
+  </suite> <!-- Observer Application Test Automation Test Suite -->
 </testng-results>
