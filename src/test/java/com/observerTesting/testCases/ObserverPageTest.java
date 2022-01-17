@@ -34,6 +34,12 @@ public class ObserverPageTest extends TestBase{
 		boolean flag = homePage.validateNetworkGrid();
 		Assert.assertTrue(flag);
 	}
+	
+	@Test(priority=2)
+	public void validateMonitoredDevices() {
+		boolean flag = homePage.validateMonitoredDevices();
+		Assert.assertTrue(flag);
+	}
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();

@@ -11,8 +11,8 @@ public class ObserverHomePage extends TestBase {
 	@FindBy(xpath="(//div[@class='react-grid-layout layout']//h3[@class='card-title row'])[1]/..")
 	WebElement networkGrid;
 	
-	@FindBy(xpath="")
-	WebElement QUATERLYGrid;
+	@FindBy(xpath="//h3[@class='font-weight-bold']")
+	WebElement monitoredDevices;
 	
 	//initialize page objects
 	public ObserverHomePage()
@@ -24,6 +24,9 @@ public class ObserverHomePage extends TestBase {
 	{
 		return networkGrid.isDisplayed();
 	}
-	
+	public boolean validateMonitoredDevices()
+	{
+		return monitoredDevices.isDisplayed();
+	}
 
 }
