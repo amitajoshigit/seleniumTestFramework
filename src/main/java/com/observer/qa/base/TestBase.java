@@ -18,7 +18,7 @@ public class TestBase {
 		
 		try {
 			prop = new Properties();
-			FileInputStream fs = new FileInputStream("..\\qa\\config\\config.properties");
+			FileInputStream fs = new FileInputStream("src\\main\\java\\com\\observer\\qa\\config\\config.properties");
 			prop.load(fs);
 		}
 		catch(FileNotFoundException e)
