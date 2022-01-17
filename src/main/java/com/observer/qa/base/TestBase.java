@@ -18,7 +18,7 @@ public class TestBase {
 		
 		try {
 			prop = new Properties();
-			FileInputStream fs = new FileInputStream("D:\\amita\\eclipse_workspace\\observerTesting\\src\\main\\java\\com\\observer\\qa\\config\\config.properties");
+			FileInputStream fs = new FileInputStream("\\home\\admin\\.jenkins\\workspace\\observer_CICD_Pipeline\\observer_deployment_pipeline\\seleniumTestFramework\\src\\main\\java\\com\\observer\\qa\\config\\config.properties");
 			prop.load(fs);
 		}
 		catch(FileNotFoundException e)
